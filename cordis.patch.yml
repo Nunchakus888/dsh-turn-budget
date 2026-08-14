@@ -1,0 +1,6 @@
+- insert:
+    - id: turn-budget
+      name: dsh-turn-budget
+      config:
+        maxStepsPerTurn: 24
+        maxToolCallsPerTurn: 40
