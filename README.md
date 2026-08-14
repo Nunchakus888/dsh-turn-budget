@@ -1,5 +1,7 @@
 # dsh-turn-budget
 
+[![CI](https://github.com/Nunchakus888/dsh-turn-budget/actions/workflows/ci.yml/badge.svg)](https://github.com/Nunchakus888/dsh-turn-budget/actions/workflows/ci.yml)
+
 `dsh-turn-budget` is a fail-closed resource governor for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). It limits model steps, root and nested tool executions, and exact provider-reported token usage independently for every Agent turn.
 
 The plugin uses public Harness extension points only:

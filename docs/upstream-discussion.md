@@ -10,7 +10,7 @@ Audited at commit `47f943859bef60e4160492346772ded9b24f765a` and npm release `0.
 
 ## Concrete consumer
 
-`dsh-turn-budget` is an out-of-tree policy plugin using the public `agent/pre-step` and `tools/pre-execute` extension points. Step and token ceilings need a durable, log-only receipt naming the applied limit, observed usage, and enforcement point. That receipt is informational: a Harness build without the plugin may skip it safely because `turn/end` and `tool/result` already preserve the canonical execution outcome.
+[`dsh-turn-budget`](https://github.com/Nunchakus888/dsh-turn-budget) is an out-of-tree policy plugin using the public `agent/pre-step` and `tools/pre-execute` extension points. Step and token ceilings need a durable, log-only receipt naming the applied limit, observed usage, and enforcement point. That receipt is informational: a Harness build without the plugin may skip it safely because `turn/end` and `tool/result` already preserve the canonical execution outcome.
 
 The plugin currently omits that receipt because appending it would make the persisted Session unloadable.
 
